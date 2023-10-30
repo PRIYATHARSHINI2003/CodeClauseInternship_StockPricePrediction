@@ -12,7 +12,9 @@ from sklearn import metrics
 
 import warnings
 warnings.filterwarnings('ignore')
-df = pd.read_csv('/content/Tesla.csv')
+github_csv_url = ''
+# Read the CSV file from the GitHub URL
+df = pd.read_csv(github_csv_url)
 df.head()
 df.shape
 df.describe()
