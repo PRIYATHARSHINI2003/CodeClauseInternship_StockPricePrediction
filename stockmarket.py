@@ -12,7 +12,7 @@ from sklearn import metrics
 
 import warnings
 warnings.filterwarnings('ignore')
-github_csv_url = ''
+github_csv_url = 'https://github.com/PRIYATHARSHINI2003/CodeClauseInternship_StockPricePrediction/blob/main/TSLA.csv'
 # Read the CSV file from the GitHub URL
 df = pd.read_csv(github_csv_url)
 df.head()
